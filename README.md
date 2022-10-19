@@ -76,4 +76,7 @@ def my_http_function(request):
 8. Type Control+C in Terminal to kill the process running your local function.
 
 ## HTTP endpoints with an Angular service
+1. From the project root in a command line session, type `ng generate service call-api-endpoint`
+2. Go into `package.json` and ensure `rxjs` uses a version matching the pattern `7.x.x`. This is necessary to use the function `firstValueFrom()`.
+3. 
 
